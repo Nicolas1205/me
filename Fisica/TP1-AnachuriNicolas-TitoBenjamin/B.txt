@@ -1,0 +1,19 @@
+- Tipos de Sistema de Fuerza: Colineales, Paralelas y Concurrentes
+- Fuerza Resultante
+- Representación de Vectores
+- Gráfica de Sistema de Fuerzas
+- Variable dependiente e independiente
+- Propiedades Intensivas y Extensivas
+- Magnitudes y Unidades
+- Magnitudes fundamentales y derivadas
+- Magnitudes Escalares y Vectoriales
+- Magnitudes Relacionadas: Directamente Proporcionales, Inversamente Proporcionales
+- Vectores
+- Rama de la Física: CINEMATICA
+- Rapidez y Velocidad
+- Fórmula de Rapidez (r = d / t)
+- Fórmula de Velocidad (v = d / t)
+- Distancia y Desplazamiento
+- Velocidad Inicial, Velocidad Final, Velocidad Media
+- Fórmula de Velocidad Final (vf = vi + a * t)
+- MRU, MRUV

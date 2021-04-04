@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Actividad 2}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Generaciones de Computadoras}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Imagenes 1ra Generacion}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Imagenes 2da Generacion}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Imagenes 3ra Generacion}{2}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Imagenes 4ta Generacion}{2}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Imagenes 5ta Generacion}{2}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Actividad 3}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Primera Generacion}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Segunda Generacion}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Tercera Generacion: Circuitos Integrados}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Cuarta Generacion: Microprocesadores , "Miniaturizacion"}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Quinta Generacion: Inteligencia Artificial}{3}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Sexta Generacion}{3}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}¿En la actualidad, cuales serían las características de una PC y a que precio de mercado conseguiría la misma?Compare las características a ésa fecha.}{3}{subsection.2.7}%

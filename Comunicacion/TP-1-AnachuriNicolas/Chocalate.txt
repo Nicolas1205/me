@@ -1,0 +1,18 @@
+En el momento de querer expresar mis emociones las palabras simplemente no son capazes de salir de mi garganta, mi mente se niebla y mi cuerpo se congela, pero, cuando estoy en presencia de este producto  traido por los mismisimos angeles, el cual se puede mostrar de difentes formas: negro, blanco, con leche, etc. sin embargo ninguno de ellos prevalece sobre otro, aunque diga esto, lamentablemente tengo un favorito el Chocolate negro, porque? Su sabor amargo y dulce mezclandose al mismo tiempo en mi paladar no tiene precio ni explicacion, una explocion de frescura y tranquilidad se expande por tu mi ser.
+
+Para expresar de una forma entendible para otro ser vivo este tipo de sensaciones debo recurrir a palabras, palabras... por donde deberia empezar? Uno solo pensaria que es el sabor, pero tambien entra en juego la forma, el aroma, el tacto, la envoltura. Pero el momento en el que se derrite en tu boca es unico e inolvidable, las palabras se agotan para expresarlo por este motivo recurrire a una imagen que lo describe perfectamente 
+
+\begin{wrapfigure}{r}{0.25\linewidth}
+
+  \centering
+  \includegraphics[width=0.9\linewidth]{/home/nico/me/Comunicacion/TP-1-AnachuriNicolas}
+  \caption{Explosion de Sentimientos}
+  \label{fig:etiqueta}
+
+\end{wrapfigure}
+
+
+una combinacion de felicidad, placer, relajacion, alivio, Trizteza por que se en alguno momento estos sentimientos se acabaran y Envidia por aquellos que pueden comer cuando lo deseen. 
+
+
+

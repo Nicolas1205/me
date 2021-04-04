@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Descubrimiento de Titan}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Expresen en 5 líneas cuál creen que es el motivo de este artículo}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}¿Qué se quiere expresar con la palabra “casualidad” en la primera oración?}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}¿Quiénes fueron John Herschel y su padre William Herschel?}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}¿A qué capítulo de la física, a su entender refiere la presente nota?}{2}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Horizonte de Eventos}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}El artículo habla de luz polarizada ¿está explicado en el mismo el conceptode luz polarizada?}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Cuando habla de chorros de partículas, ¿a qué partículas se refiere?}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}¿Qué distancia representa (en Km) 55 millones de años luz?}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Busque un modelo teórico que explique el comportamiento del gas magnetizado.“}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}¿Qué relación cree usted que hay en ambos artículos?}{3}{subsection.2.5}%

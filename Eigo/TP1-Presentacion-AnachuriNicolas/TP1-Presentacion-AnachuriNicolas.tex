@@ -1,0 +1,208 @@
+% Author: Anachuri Nicolas Daniel
+% Template for myself
+ 
+\documentclass[11pt]{article}
+\usepackage{indentfirst} 		% First line paragraph indentation
+\usepackage{etoolbox} 			% Used for being able to utilise if statements in the language detection.
+\setlength{\parskip}{\baselineskip}	% With this line, it is not needed the use of \\ at the end of each paragraph for spacing purposes
+
+
+% ========================= VARIABLES TO MODIFY =================================
+
+\def\LANGUAGE{EN} %EN, ES		%Language in which the document is going to be written.
+
+\def\reportTile{Artificial Inteligence on mathematics}			%Document's title
+\def\subject{A new Perspective}			%Subject
+
+\def\writter{Anachuri Nicolas Daniel}		%Author(s)
+
+
+\def\leftUpperHeader{\subject}		%\subject
+\def\rightUpperHeader{\leftmark}	%\leftmark for current section
+
+
+% Do NOT modify anything from here until the beginning of the document.
+%============================== DATA PROCESSING ============================
+\ifdefstring{\LANGUAGE}{EN}
+{
+
+\def\course{Industrial Engineering Master, First Course}
+\def\university{Escuela de Minas Dr. Horacio Carrillo}
+\def\pageCounterName{PAGE} 		% In the footer will be shown this... 
+\def\pageSeparator{OUT OF} 		% ...text in addition of the page number.
+
+}
+{
+\usepackage[utf8]{inputenc}		%Tildes en caso de no usar arch
+\usepackage[spanish, es-tabla]{babel} 	%La opción es-tabla, hace que por defecto las tablas se llamen "Tabla", en vez de "Cuadro".
+\def\course{Máster en Ingeniería Industrial, Primer Curso}
+\def\university{Escuela de Minas Dr. Horacio Carrillo}
+\def\pageCounterName{PÁGINA}		%En el pie de página aparece este contenido más el número de página
+\def\pageSeparator{DE} 			%DE, OUT OF
+
+}
+
+
+%===================== USEFUL VARIABLES  =============================
+\def\imageSize{0.6}
+
+%===================== PACKAGES TO USE  =============================
+\usepackage{amsmath} 			% Allows me the use of matrix in math mode
+\setcounter{MaxMatrixCols}{20} 		% Increases the maximum number of columns in matrix from 10 to 20.
+\usepackage{pdfpages} 			% Attach pdfs using \includepdf[pages=initial-final]{path.pdf}
+\usepackage{lastpage}			% Used to reference the last page and include it in the footer.
+\usepackage{xcolor}			% Change color of text and so on. \textcolor{color}{text} is the one I use the most.
+\usepackage{placeins} 			% Allows the use of the command \FloatBarrier
+\usepackage{setspace}			% Allows the use of the spacing environment to change the space between lines.
+\usepackage{graphicx}			% Figures addition
+\usepackage{geometry}			% Changes the geometry of the pages
+\usepackage[small, bf]{caption}		% Decreases the size of captions and turns them bold text.
+\usepackage{subcaption}			% Include subfigures.
+\usepackage{hyperref}			% Allows clickable references.
+\hypersetup{colorlinks=true, allcolors=black} 	% Colors of links
+\usepackage{pdflscape}			% Allows the use of the environment lscape for landscape pages
+
+\usepackage{fancyhdr}			% Modify header and footer
+\usepackage{bm}				% Allows to use bold text in math mode with \bm
+\usepackage[makeroom]{cancel}		% Allows the use of \cancelto{}{} to cross out equations
+\usepackage{titlesec}			% Change title format
+
+
+%========== CHANGE TITLE FORMAT  ======================
+%\titleformat{\section}
+%{\bfseries}	% format
+%{\thesection}	% label
+%{0.3cm}		% separation between label and body
+%{}		% code preceding title body
+%[]		% code following title body
+
+
+%========== HEADER AND FOOTER CONFIGURATION ======================
+\pagestyle{fancy}
+% HEADER[EVEN PAGES]{ODD PAGES}
+% Left header
+\lhead[
+	\scriptsize{\MakeUppercase{\leftUpperHeader}} % Even pages
+]
+{
+	\scriptsize{\MakeUppercase{\leftUpperHeader}} % Odd pages
+}
+
+% Central header
+\chead[]{}
+
+% Right header
+\rhead[
+\scriptsize{\rightUpperHeader} % Even pages
+]
+{
+\scriptsize{\rightUpperHeader} % Odd pages
+}
+
+\renewcommand{\headrulewidth}{0.8pt}	% Width of the header rule
+
+% FOOTER[EVEN PAGES]{ODD PAGES}
+% Left footer
+\lfoot[]{}
+
+% Central footer
+\cfoot[
+\tiny{\pageCounterName\space\thepage\space \pageSeparator\space\pageref{LastPage}} % Even pages
+]
+{
+\tiny{\pageCounterName\space\thepage\space \pageSeparator\space\pageref{LastPage}} % Odd pages
+}
+
+% Right footer
+\rfoot[]{}
+\renewcommand{\footrulewidth}{0.8pt} %Width of the footer rule
+
+
+%================================== USER OWN FUNCTIONS ===============================================
+\newcommand{\PDEA}[1]{\cdot 10^{#1}} % Función para escribir más rápidamente multiplicaciones por potencias de 10. PDEA = Por Diez Elevado A
+
+\usepackage{xargs}	%Permite manejar argumentos opcionales en los comandos creados por el usuario
+
+%Incluir imágenes, la sintaxis es la siguiente:
+%\IncludeImage{ruta}[escalado][pie figura][etiqueta], los corchetes son opcionales
+\newcommandx*{\IncludeImage}[4][2=1, 3=, 4=]{
+	%#1 es la ruta a la imagen
+	%#2 es el escalado
+	%#3 es el pie de figura
+	%#4 es la etiqueta
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=#2\linewidth]{#1}
+		%Si se especifica pie de figura...
+		\ifblank{#3}{}{
+			\caption{#3}	
+		}
+		%Si se especifica etiqueta...
+		\ifblank{#4}{}{
+			\label{#4}	
+		}
+	\end{figure}
+	\FloatBarrier
+}
+
+
+
+%================================ DOCUMENT BEGINNING  =============================================
+\begin{document}
+%***************** TITLE PAGE (DO NOT MODIFY) ******************************
+\begin{titlepage}
+	\newgeometry{top=2cm, bottom=3.5cm}
+
+	%Logos Escuela y universidad
+	\def\logoSize{0.2}
+	\begin{figure}
+	\includegraphics[width=\logoSize\linewidth]{/home/nico/Descargas/minas.jpeg}
+	\hfill
+	\includegraphics[width=\logoSize\linewidth]{/home/nico/Descargas/unju.jpeg}
+	\end{figure}
+
+
+	%Espacio entre logos y título
+	\vspace*{1.75cm}
+
+	%Título con interlineado aumentado
+	\begin{spacing}{2}
+	\centering{
+	\Huge{
+		\textbf{\reportTile}
+	}
+	}
+	\end{spacing}
+	
+	%Línea horizontal de la portada
+	\hrule
+	
+	%Se baja al final de la hoja
+	\vfill
+	\begin{flushright}
+	\LARGE{\writter}
+
+	\vspace{2cm}
+	
+	\Large
+	\subject\\
+	\course\\
+	\university
+	
+	\vspace{1cm}
+	
+	\today
+	\end{flushright}
+	
+\end{titlepage}
+	
+\newgeometry{top=3cm, bottom=3cm}
+
+\tableofcontents
+\cleardoublepage
+
+\section{<++>}\label{sec:<++>}
+
+\end{document}
+

@@ -1,0 +1,50 @@
+1- El método cientifico es apropiado para el estudio de las ciencias duras. Se considera a Galileo Galilei (1564-1642) como el padre del método científico. Fue un físico y astrónomo que propició la revolución científica durante el Renacimiento. Algunos de sus aportes son la mejora del telescopio, el compás geométrico, el estudio del movimiento del péndulo y el descubrimiento de las lunas de Júpiter.
+
+2- La física es la ciencia natural que estudia los componentes fundamentales del Universo, la energía, la materia, el espacio-tiempo y las interacciones fundamentales.
+
+3- Los estados de la materia son:
+- Sólido
+- Líquido
+- Gaseoso
+- Plasmático
+- Condensado de Bose-Einstein
+- Condensado de Fermi
+- Superfluido
+- Supersólido
+
+Tipos de cambio de estado:
+- Fusión: Es el pasaje de un sólido a líquido por medio de exposición al calor.
+- Solidificación: Es el pasaje de líquido a sólido por medio del enfriamiento.
+- Vaporización y Ebullición: Son los procesos en los que la materia pasa del estado líquido al estado gaseoso.
+- Condensación: Es el pasaje de gaseoso a líquido.
+- Solidificación: Es el pasaje de líquido a gaseoso.
+- Sublimación: Es el pasaje del estado sólido al estado gaseoso sin pasar por el estado líquido. Una sustancia capaz de sublimarse es el hielo seco.
+- Sublimación inversa: Es el pasaje directo del estado gaseoso al sólido, sin pasar por el estado sólido.
+- Ionización: Es el cambio de un gas a un plasma.
+- Desionización: Es el cambio de un plasma a un gas.
+
+4- Las magnitudes pueden ser clasificadas de acuerdo a a su expresión matemática y según su actividad. Según su expresión matemática puede clasificarse en escalares, vectoriales y tensoriales. Según su actividad, se clasifican en extensivas e intensivas.
+
+5- 
+
+6- 
+Científicos de la antigüedad:
+- Arquímedes: Creó numerosas herramientas revolucionarias para la historia de las matemáticas, como la palanca o el tornillo de Arquímedes y dió una aproximación extremadamente precisa del número pi.
+- Nicolás Copérnico: Formuló la teoría heliocéntrica del sistema solar.
+- Leonardo Da Vinci: 
+
+Científicos del siglo XX:
+- Albert Einstein
+- Marie Curie
+- Charles Darwin
+
+Fuentes:
+https://es.wikipedia.org/wiki/Historia_del_m%C3%A9todo_cient%C3%ADfico
+https://www.muyinteresante.es/ciencia/articulo/curiosidades-sobre-galileo-galilei-341468498184#:~:text=Galileo%20Galilei%20(1564%2D1642),durante%20la%20%C3%A9poca%20del%20Renacimiento.
+https://psicologiaymente.com/cultura/aportaciones-galileo-galilei
+https://es.wikipedia.org/wiki/M%C3%A9todo_cient%C3%ADfico
+https://es.wikipedia.org/wiki/F%C3%ADsica
+https://es.wikipedia.org/wiki/Estado_de_agregaci%C3%B3n_de_la_materia
+https://es.wikipedia.org/wiki/Magnitud_f%C3%ADsica
+https://www.superprof.com.ar/blog/descubrimientos-matematicos-arquimedes-siracusa/
+https://es.wikipedia.org/wiki/Nicol%C3%A1s_Cop%C3%A9rnico
